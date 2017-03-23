@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+ <title>  </title>
+ <meta name="description" >
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+</head>
+
+<body>
+
+  <form action="" method="post">
+
+    <!-- DADOS Cliente-->
+    <fieldset>
+     <legend>Cadastro Usuário</legend>
+     <table cellspacing="10">
+      
+      <tr>
+       <td>
+        <label for="perfilUsuario">Perfil Usuário:</label>
+      </td>
+      <td align="left">
+        <select name="perfilUsuario"> 
+          <option value="0"></option> 
+          <option value="1">Atendente</option> 
+          <option value="2">Sindico</option> 
+          <option value="3">Funcionario</option> 
+        </select>
+      </td>
+    </tr>
+
+    <td>
+      <label for="nome">Nome: </label>
+    </td>
+    <td align="left">
+      <input type="text" name="nome">
+    </td>
+    
+    <tr>
+     <td>
+      <label>CPF:</label>
+    </td>
+    <td align="left">
+      <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
+    </td>
+  </tr>
+
+  <tr>
+   <td>
+    <label for="empresa">Empresa:</label>
+  </td>
+  <td align="left">
+    <select name="empresa"> 
+      <option value="0"></option> 
+      <option value="1">Empresa01</option> 
+      <option value="2">Empresa02</option> 
+      <option value="3">Empresa03</option> 
+    </select>
+  </td>
+</tr>
+
+<td>
+  <label for="login">Login: </label>
+</td>
+<td align="left">
+  <input type="text" name="login">
+</td>
+
+<tr>
+ <td>
+  <label for="pass">Senha: </label>
+</td>
+<td align="left">
+  <input type="password" name="pass">
+</td>
+</tr>
+
+<tr>
+ <td>
+  <label for="horarioEntrada">Horário Entrada:</label>
+</td>
+<td align="left">
+  <select name="horarioEntrada"> 
+    <option value="1"></option> 
+    <option value="2"></option> 
+    <option value="3"></option> 
+  </select>
+</td>
+</tr>
+
+<tr>
+ <td>
+  <label for="horarioSaida">Horário Saída:</label>
+</td>
+<td align="left">
+  <select name="estado"> 
+    <option value="1"></option> 
+    <option value="2"></option> 
+    <option value="3"></option> 
+  </select>
+</td>
+</tr>
+
+<tr>
+ <td align="left">
+  <input type="checkbox" name="acessoLivre"> Acesso Livre <br>
+</td>
+</tr>
+
+<tr>
+ <td align="left">
+  <input type="checkbox" name="alterarTemperatura"> Alterar Temp<br>
+</td>
+</tr>
+
+</table>
+
+</fieldset>
+
+<br />
+
+<input type="submit" value="Enviar">
+<input type="reset" value="Limpar">
+</form>
+
+</body>
+</html>
